@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User registeration Form</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <form action="registerForm.html">
+        <h2>Registeration Form</h2>
+        <p>Ho va Ten</p><br>
+        <input type="text" name="hoten"><br>
+        <p>Email</p><br>
+        <input type="text" name="email"><br>
+        <p>So dien thoai</p><br>
+        <input type="text" name="phone"><br>
+        <p>Gioi tinh</p><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br>
+        <input type="submit" value="Dang ky">
+    </form>
+</body>
+</html>
